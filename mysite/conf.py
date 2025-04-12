@@ -1414,6 +1414,13 @@ WARN_ABOUT_TAG_METADATA = False
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {}
 
+# Settings for the Reveal theme must be added to the global context.
+# subtheme selection:   beige/serif/simple/sky/night/default
+# transition selection: cube/page/concave/linear/none/default
+GLOBAL_CONTEXT.update({
+    'subtheme': 'beige',
+    'transition': 'cube'
+})
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
