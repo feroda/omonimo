@@ -161,7 +161,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "reveal"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -1418,7 +1418,7 @@ GLOBAL_CONTEXT = {}
 # subtheme selection:   beige/serif/simple/sky/night/default
 # transition selection: cube/page/concave/linear/none/default
 GLOBAL_CONTEXT.update({
-    'subtheme': 'beige',
+    'subtheme': 'sky',
     'transition': 'cube'
 })
 # Add functions here and they will be called with template
